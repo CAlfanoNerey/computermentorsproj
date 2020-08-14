@@ -7,6 +7,7 @@
 #     print(number)
 #     number = number -1
 
+
 keepPlaying = True
 
 while(keepPlaying):
@@ -14,6 +15,14 @@ while(keepPlaying):
 
     while(player1 != "rock" and player1 != "paper" and player1 != "scissors"):
         player1 = input("Please choose a valid choice (rock,paper or scissors): ")
+
+
+    #based on player1 input:
+    # 1.While his input == "rock", 
+    # 2.I want to get anything other than rock.  
+    # while(player1 == "rock"):
+    #     player1 = input("Please choose a valid choice (paper or scissors): ")
+ 
 
     player2 = input("What is player 2's choice? ")
 
